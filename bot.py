@@ -11,7 +11,7 @@ from telegram.ext import (
     ContextTypes, filters
 )
 
-TOKEN = "8761418241:AAFYbkwT6wzOx9eig2DoHeFneaLnj1ipQ7A"  # Replace with your token
+TOKEN = os.getenv("TOKEN")  # Replace with your token
 DOWNLOAD_DIR = "downloads"
 OUTPUT_DIR = "outputs"
 
